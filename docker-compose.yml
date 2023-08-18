@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  brcities:
+    image: brcities
+    build:
+      context: .
+      dockerfile: ./Dockerfile
